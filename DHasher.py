@@ -41,7 +41,7 @@ class DHasher(object):
          im (PIL.Image) -- An image which will be used to generate a 
                            bitstring based on the dhash algorithm.
          sz (Int) -- An integer describing the resize dimensions for 
-                     the image (sz+1-by-sz).  Default value is 32.
+                     the image (sz-by-sz+1).  Default value is 32.
       Returns:
          A list, which is the resulting hash of the encoded grayscale
          vector corresponding to the reduced, grayscale image.
